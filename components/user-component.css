@@ -1,0 +1,41 @@
+
+.user-component {
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.user-component,
+.user-component__column:first-child{
+    display: flex;
+    align-items: center;
+}
+
+.user-component__profile {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding: 0px 10px;
+}
+
+.user-component__title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.user-component__column:last-child {
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+}
+
+
+.user-component__time { 
+    display: block;
+    margin-bottom: 5px;
+}
+.user-component__subtitle{
+    margin-top: 10px;
+    opacity: 0.4;
+}

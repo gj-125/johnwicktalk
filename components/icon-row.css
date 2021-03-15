@@ -1,0 +1,82 @@
+.icon-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    justify-content: center;
+   
+    
+  }
+  .icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8);
+    width: 25%;
+    padding: 15px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .icon-row__icon i {
+    font-size: 40px;
+    
+  }
+  
+  .icon-row__icon span {
+    margin-top: 15px;
+  }
+  
+  .icon-row__icon:hover {
+    cursor: pointer;
+  }
+  
+  .help-us {
+      margin-top: 60px;
+      border-top: 2px dashed black;
+      padding-top: 60px;
+      text-align: center;
+  }
+  .help-us__title {
+      font-size: 30px;
+      font-weight: 600;
+    animation: help-us-link-title 2s linear infinite;
+  }
+
+
+
+  @keyframes help-us-link-title {
+      from {
+          background-color: black;
+          color: white;
+
+      }to { 
+          background-color: red;
+          color: black;
+
+      }
+  }
+  .help-us__nomard {
+      margin-top: 35px;
+      
+  }
+
+  .help-us__nomard-kokoaclone-link-icon {
+      font-size: 60px;
+
+  }
+  .help-us__nomard-kokoaclone-link-name {
+      font-size: 20px;
+      font-weight: 600;
+        padding: 10px;
+        display: block;
+  }
+
+  .help-us__nomard-kokoaclone-link:hover {
+    animation: kokoaclone-link-spin 1s ease-in-out;
+  }
+
+  @keyframes kokoaclone-link-spin {
+      100% {
+          transform: rotateY(360deg);
+      }
+  }

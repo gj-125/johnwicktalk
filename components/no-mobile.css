@@ -1,0 +1,21 @@
+#no-mobile {
+    background-image: url(../img/nomobileimg.gif);
+    background-size: 100%;
+    color: red;
+    font-weight: 600;
+    position: absolute;
+    z-index: 99;
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+  }
+  
+  @media screen and (max-width: 645px) {
+    #no-mobile {
+      display: none;
+    }
+  }

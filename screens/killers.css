@@ -1,0 +1,48 @@
+
+
+#killers-find-link {
+    text-align: center;
+    background-color: grey;
+    padding: 13px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    animation: killersfindlink 3s ease-in-out infinite;
+}
+.fa-chevron-right {
+    padding: 5px;
+}
+@keyframes killersfindlink {
+    0% {
+        color: black;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color: black;
+    }
+}
+.killers-screen__channel {
+    margin-top: 25px;
+    border-top: 1px 
+    dashed rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+    
+}
+.killers-screen__channel-header {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    margin: var(--padding-all);
+    
+}
+
+.killing-movies {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+    
+}

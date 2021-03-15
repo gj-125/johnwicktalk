@@ -1,0 +1,81 @@
+.login-main
+ {
+    animation: backgroundcolorchange 1s linear infinite;
+}
+
+
+
+@keyframes backgroundcolorchange {
+    0% {
+        background-color: #cf6ae2;
+    }
+    25% {
+        background-color: #c32370;
+    }
+    50% {
+        background-color: #fee497;
+    }
+    75% {
+        background-color: #fd8129;
+    }
+    100% {
+        background-color: #fd4722;
+    }
+}
+
+.welcome-header {
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-weight: 600;
+}
+.welcome-header {
+    margin: 60px 0px;
+}
+
+.welcome-header__title {
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+  .welcome-header__text {
+    width: 60%;
+    color: gray;
+  }
+  
+  #login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+    
+  }
+  
+  #login-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+  #login-form input::placeholder {
+      color: rgba(0, 0, 0, 0.5);
+      
+  }
+  
+  #login-form input:focus {
+      border-color : black;
+  }
+  #login-form input[type="submit"] {
+      background-color: black;
+      cursor: pointer;
+      border-radius: 5px;
+      color: white;
+
+  }
+  #login-form a {
+      text-align: center;
+      color: gray;
+      font-size: 15px;
+  }
+
+  

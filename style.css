@@ -1,0 +1,27 @@
+@import "reset.css";
+@import "var.css";
+
+
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/icon-row.css";
+@import "components/alt-header.css";
+@import "components/no-mobile.css";
+
+@import "screens/login.css";
+@import "screens/killers.css";
+@import "screens/chat.css";
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.chats-background-img {
+    
+    background-image: url(img/chatsbackground.gif);
+   
+    z-index: -1;
+}
